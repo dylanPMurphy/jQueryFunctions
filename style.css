@@ -1,0 +1,19 @@
+#wrapper{
+    width: 970px;
+}
+
+div{
+    border: solid black 5px;
+    border-radius: 5px;
+    width:600px;
+    height:200px;
+    margin-left:235px;
+    margin-top:20px;
+
+}
+div button{
+    display: inline-block;
+}
+div p, h1{
+    display: inline-block;
+}
