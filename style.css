@@ -1,8 +1,9 @@
 #wrapper{
     width: 970px;
+    height: auto;
 }
 
-div{
+.divclass{
     border: solid black 5px;
     border-radius: 5px;
     width:600px;
@@ -11,9 +12,23 @@ div{
     margin-top:20px;
 
 }
-div button{
+
+.buttonclass{
     display: inline-block;
+    transition-duration: .4s;
+    background-color: #555555;
+    color:white;
+}
+
+.buttonclass:hover{
+    background-color: black;
 }
 div p, h1{
     display: inline-block;
+}
+
+#toggle img{
+    
+    height:150px;
+    position: absolute;
 }
